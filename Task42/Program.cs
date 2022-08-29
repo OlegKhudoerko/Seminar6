@@ -11,4 +11,4 @@
 
 Console.Write("Введите число = ");
 int number = Convert.ToInt32(Console.ReadLine());
-System.Console.WriteLine($"\n{number} -> {Convert.ToString(number,2)}\n");// Преобразуем значение number₁₀ -> number₂
+Console.WriteLine($"\n{number} -> {Convert.ToString(number,2)}\n");// Преобразуем значение number₁₀ -> number₂
